@@ -5,11 +5,11 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [Component.AMusicPlayer()],
+  afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/MitsuhideAkechi",
-          X: "https://x.com/Salieri1122"
+      "GitHub@MitsuhideAkechi": "https://github.com/MitsuhideAkechi",
+      "X@Salieri1122": "https://x.com/Salieri1122"
     },
   }),
 }
