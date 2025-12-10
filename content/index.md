@@ -21,40 +21,17 @@ summary: "一个小小的博客, 在这里分享与记录"
 
 # 『シリウスの心臓』
 
-Arted by: [ヰ世界情緒](https://kamitsubaki.jp/artist/isekaijoucho/)
+<iframe 
+    width="100%" 
+    height="400" 
+    src="https://www.youtube.com/watch?v=UKZt1vq8bKI" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen
+></iframe>
 
-<div class="aplayer-container">
-  <div id="player"></div>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const ap = new APlayer({
-        container: document.getElementById('player'),
-        fixed: true,
-        mini: false,
-        autoplay: false,
-        theme: '#FADFA3',
-        loop: 'all',
-        order: 'list',
-        preload: 'auto',
-        volume: 0.7,
-        mutex: true,
-        listFolded: false,
-        listMaxHeight: '150px',
-        lrcType: 0,
-        audio: [
-          {
-            name: 'シリウスの心臓',
-            artist: 'ヰ世界情緒',
-            url: '/static/ヰ世界情緒 - シリウスの心臓.flac',
-            cover: '/static/ヰ世界情緒 - シリウスの心臓.jpg',
-            type: 'auto'
-          }
-        ]
-      });
-    });
-  </script>
-</div>
+Rendered By: [ヰ世界情緒](https://kamitsubaki.jp/artist/isekaijoucho/)
 
 ・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー ・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
 
@@ -66,3 +43,4 @@ Arted by: [ヰ世界情緒](https://kamitsubaki.jp/artist/isekaijoucho/)
 - 完善主页描述
 - 更改字体(本地化), 预定: 秋水书体, 明朝体?(简体中文汉字适配待考察)
 - 更改主题配色方案
+- 总有一天, 我要搞懂 Quartz 框架的 DOM 机制... 我要弄个播放器播放情绪小姐的歌...
