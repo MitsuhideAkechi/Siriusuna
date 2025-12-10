@@ -8,7 +8,6 @@ const AMusicPlayer: QuartzComponent = () => {
       <script
         dangerouslySetInnerHTML={{
           __html: `
-            // 确保 DOM 完全加载后再初始化 APlayer
             document.addEventListener('DOMContentLoaded', function() {
               const ap = new APlayer({
                 container: document.getElementById('player'),
@@ -28,8 +27,8 @@ const AMusicPlayer: QuartzComponent = () => {
                   {
                     name: 'シリウスの心臓',
                     artist: 'ヰ世界情緒',
-                    url: '/ヰ世界情緒 - シリウスの心臓.flac', 
-                    cover: '/ヰ世界情緒 - シリウスの心臓.jpg',
+                    url: '/static/ヰ世界情緒 - シリウスの心臓.flac', 
+                    cover: '/static/ヰ世界情緒 - シリウスの心臓.jpg',
                     type: 'flac'
                   }
                 ]
@@ -43,14 +42,14 @@ const AMusicPlayer: QuartzComponent = () => {
 }
 
 AMusicPlayer.css = `
-/* 确保播放器在页面顶部 */
 .aplayer {
   z-index: 1000; 
 }
 .aplayer.aplayer-fixed {
-    bottom: 0;
-    left: 0;
-    right: 0;
+    left: auto !important; 
+    right: 0px !important; 
+    width: 300px; /* 示例宽度 */
+    bottom: 0px !important; 
 }
 `
 
