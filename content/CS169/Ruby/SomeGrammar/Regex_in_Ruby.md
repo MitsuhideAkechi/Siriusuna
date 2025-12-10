@@ -1,0 +1,1 @@
+[ruby - What is the difference between =~ and match() when pattern matching? - Stack Overflow](https://stackoverflow.com/questions/14344016/what-is-the-difference-between-and-match-when-pattern-matching)
