@@ -1,3 +1,4 @@
+import AMusicPlayer from "./AMusicPlayer"
 import Content from "./pages/Content"
 import TagContent from "./pages/TagContent"
 import FolderContent from "./pages/FolderContent"
@@ -25,6 +26,7 @@ import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 
 export {
+  AMusicPlayer,
   ArticleTitle,
   Content,
   TagContent,
