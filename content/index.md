@@ -5,15 +5,11 @@ tags: ["主页", "介绍"]
 summary: "一个小小的博客, 在这里分享与记录"
 ---
 
-<div>
-・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー     ・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
-</div>
+・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー ・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
 
 # 「よくそう、シリウスの砂、小さな惑星」
 
-<div>
-・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー     ・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
-</div>
+・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー ・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
 
 # 「ここにいるのは」
 
@@ -21,36 +17,46 @@ summary: "一个小小的博客, 在这里分享与记录"
 - 日语学习习作(会有的吧?)
 - 其他想写的东西
 
-<div>
-・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー     ・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
-</div>
+・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー ・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
 
-#　『シリウスの心臓』
+# 『シリウスの心臓』
 
-[ヰ世界情緒](https://kamitsubaki.jp/artist/isekaijoucho/)
+Arted by: [ヰ世界情緒](https://kamitsubaki.jp/artist/isekaijoucho/)
 
-<div id="player"></div>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
-        <script>
-        const ap = new APlayer({
+<div class="aplayer-container">
+  <div id="player"></div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const ap = new APlayer({
         container: document.getElementById('player'),
-        fixed: false,
+        fixed: true,
+        mini: false,
+        autoplay: false,
+        theme: '#FADFA3',
+        loop: 'all',
+        order: 'list',
+        preload: 'auto',
+        volume: 0.7,
+        mutex: true,
+        listFolded: false,
+        listMaxHeight: '150px',
+        lrcType: 0,
         audio: [
-            {
-                name: 'シリウスの心臓',
-                artist: 'ヰ世界情緒',
-                url: '/static/ヰ世界情緒 - シリウスの心臓.flac',
-                cover: '/static/ヰ世界情緒 - シリウスの心臓.jpg',
-                type: 'auto'
-            }
+          {
+            name: 'シリウスの心臓',
+            artist: 'ヰ世界情緒',
+            url: '/static/ヰ世界情緒 - シリウスの心臓.flac',
+            cover: '/static/ヰ世界情緒 - シリウスの心臓.jpg',
+            type: 'auto'
+          }
         ]
-        });
-</script>
-
-<div>
-・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー     ・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
+      });
+    });
+  </script>
 </div>
+
+・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー ・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
 
 # 「まだ、道の途中なんだ」
 
