@@ -50,7 +50,8 @@ export default (() => {
             )}
           </>
         )}
-        <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossOrigin="anonymous" />
+            <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossOrigin="anonymous" />
+            
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <meta name="og:site_name" content={cfg.pageTitle}></meta>
@@ -84,7 +85,13 @@ export default (() => {
 
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
-        <meta name="generator" content="Quartz" />
+            <meta name="generator" content="Quartz" />
+            
+        <link rel="preconnect" href="https://cdn.jsdelivr.net" /> 
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" />
+        
+        <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" async></script>
 
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
         {js

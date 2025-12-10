@@ -5,10 +5,6 @@ const AMusicPlayer: QuartzComponent = () => {
     <div className="aplayer-container">
       <div id="player"></div>
 
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" />
-
-      <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
-
       <script
         dangerouslySetInnerHTML={{
           __html: `
@@ -32,8 +28,8 @@ const AMusicPlayer: QuartzComponent = () => {
                   {
                     name: 'シリウスの心臓',
                     artist: 'ヰ世界情緒',
-                    url: 'quartz/static/ヰ世界情緒 - シリウスの心臓.flac', 
-                    cover: 'quartz/static/ヰ世界情緒 - シリウスの心臓.jpg',
+                    url: '/ヰ世界情緒 - シリウスの心臓.flac', 
+                    cover: '/ヰ世界情緒 - シリウスの心臓.jpg',
                     type: 'flac'
                   }
                 ]
@@ -45,5 +41,17 @@ const AMusicPlayer: QuartzComponent = () => {
     </div>
   )
 }
+
+AMusicPlayer.css = `
+/* 确保播放器在页面顶部 */
+.aplayer {
+  z-index: 1000; 
+}
+.aplayer.aplayer-fixed {
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+`
 
 export default (() => AMusicPlayer) satisfies QuartzComponentConstructor
