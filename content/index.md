@@ -23,7 +23,7 @@ summary: "一个小小的博客, 在这里分享与记录"
 
 <div style="text-align: center; max-width: 600px; margin: 0 auto;">
   <a href="https://www.youtube.com/watch?v=UKZt1vq8bKI"  title="シリウスの心臓">
-    <img src="/static/ヰ世界情緒 - シリウスの心臓.jpg" alt="点击观看『シリウスの心臓』MV" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
+    <img src="/static/Isekaijoutyo-siriusunosinzou.jpg" alt="点击观看『シリウスの心臓』MV" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
   </a>
 </div>
 
