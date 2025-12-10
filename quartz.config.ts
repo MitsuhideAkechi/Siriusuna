@@ -24,7 +24,7 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         header: "Shippori Mincho",
-        body: "QiushuiShotai",
+        body: "Noto Serif SC",
         code: "JetBrains Mono",
       },
       colors: {
