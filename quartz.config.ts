@@ -9,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Siriusuna",
-    pageTitleSuffix: " - Chiisana Wakusei",
+    pageTitleSuffix: " | Siriusuna",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -21,7 +21,7 @@ const config: QuartzConfig = {
     defaultDateType: "modified",
     theme: {
       fontOrigin: "local",
-      cdnCaching: true,
+      cdnCaching: false,
       typography: {
         header: "LXGWWenKai",
         body: "QiushuiShotai",
