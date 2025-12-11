@@ -1,8 +1,8 @@
-![](IMG-20251210185526286.png)
-![](IMG-20251210185526309.png)
+![](IMG-20251211101617871.png)
+![](IMG-20251211101617904.png)
 
 An example:
-![](IMG-20251210185526448.png)
+![](IMG-20251211101617939.png)
 0. Copy constructor
 1. Default constructor
 2. Normal constructor
@@ -14,28 +14,28 @@ An example:
 	- Copy _constructor_
 	- Copy _assignment_
 	- Copy constructor(For return!)
-![](IMG-20251210185526472.png)
+![](IMG-20251211101617970.png)
 # Copy Operation
 When we did not define our own copy constructor, cpp will generate one for us which just simply copy every single value.
-![](IMG-20251210185526493.png)
-![](IMG-20251210185526516.png)
-![](IMG-20251210185526635.png)
-![](IMG-20251210185526660.png)
+![](IMG-20251211101618032.png)
+![](IMG-20251211101618067.png)
+![](IMG-20251211101618103.png)
+![](IMG-20251211101618196.png)
 
 _**So, what a copy constructor or assignment needs to do?**_
-![](IMG-20251210185526799.png)
+![](IMG-20251211101618234.png)
 - Copy constructor
-![](IMG-20251210185526826.png)
+![](IMG-20251211101618278.png)
 - Copy assignment
 Not a constructor, but a [Overloading of `=`](Operator_Overloading.md)!
 
 ## Prevent from Copying
-![](IMG-20251210185526852.png)
+![](IMG-20251211101618319.png)
 
 # When Own Special Member Function is Needed?
-![](IMG-20251210185526878.png)
-![](IMG-20251210185527011.png)
-![](IMG-20251210185527036.png)
+![](IMG-20251211101618357.png)
+![](IMG-20251211101618387.png)
+![](IMG-20251211101618429.png)
 
 # An Example
 ```cpp
@@ -65,7 +65,7 @@ MyClass f() {
 MyClass a;
 a = f();
 ```
-![](IMG-20251210185527060.png)
+![](IMG-20251211101618466.png)
 But something is optimized after c++17 which called [Move_Semantics](Move_Semantics.md).
 
 # Move Operation

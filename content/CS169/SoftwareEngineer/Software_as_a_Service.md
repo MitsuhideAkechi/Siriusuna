@@ -1,43 +1,43 @@
 # SaaS
 ## New Technique
 ### Background
-![](IMG-20251210185507200.png)
+![](IMG-20251211101601513.png)
 ### AJAX
-![](IMG-20251210185507317.png)
+![](IMG-20251211101601579.png)
 
 So we can perceive website as a function returning a bunch of data that our browser will handle using handler function.  
 Therefore we can combine lots of website with different functionalities like we `require` library and call them.(That is SOA)
 
 ## SOA: Microservice
-![](IMG-20251210185507344.png)
+![](IMG-20251211101601629.png)
 > All the components are designed to be independent services like you go over the internet to access them, that's the idea of Service Oriented Architecture.  
 > So what this means that everyone sits on services if you went over the internet access it's easy to get and replace one. It opens replaceable very easily, it's like to bring down a service and also recover mistakes when it die throw things out in or put them back together. It's much more flexible. 
 
 _**No services can directly name or access another service's data.**_
 ### SOA vs Silo
-![](IMG-20251210185507374.png)
-![](IMG-20251210185507401.png)
+![](IMG-20251211101601673.png)
+![](IMG-20251211101601715.png)
  _**There, I could say: SOA is the generalization of Data Abstraction from programming to software engineering.**_  
 
 ### Pros/Cons(P83)
 > Do one thing very very well.
-![](IMG-20251210185507428.png)
+![](IMG-20251211101601762.png)
 
 (Easier to test because of its single effectiveness, harder because of its dependence each other)
 ## Cloud Computing(Utility Computing)
 ### Demand
-![](IMG-20251210185507457.png)
+![](IMG-20251211101601811.png)
 
 ### Warehouse Scale Computers
-![](IMG-20251210185507485.png)
-![](IMG-20251210185507607.png)
+![](IMG-20251211101601860.png)
+![](IMG-20251211101601909.png)
 Better than large server for individual
 
 ## Software Quality Assurance
-![](IMG-20251210185507638.png)
-![](IMG-20251210185507669.png)
+![](IMG-20251211101601958.png)
+![](IMG-20251211101602013.png)
 ### Test
-![](IMG-20251210185507718.png)
+![](IMG-20251211101602067.png)
 
 ## Conciseness, Synthesis, Reuse, and Tools
 

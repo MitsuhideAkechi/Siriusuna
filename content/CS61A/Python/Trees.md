@@ -14,7 +14,7 @@ Each node has a label that can be any value
 One node can be the parent/child of another
 
 **People often refer to labels by their locations**
-![](IMG-20251210185508459.png)
+![](IMG-20251211101603020.png)
 # Constructor
 ```python
 def tree(label, branches=[]):

@@ -10,19 +10,19 @@ _**Hypernym**_
 ## `interface`: Keyword instead of class
 Idea: interface is a specification of what a class should do, not how to do it.
 
-![](IMG-20251210185516898.png)
+![](IMG-20251211101611768.png)
 Every method in interface should be public so `public` is redundant.
 
 ## `implements`: Keyword to tell compiler that it is a hyponym of interface(a subclass)
 
-![](IMG-20251210185516922.png)
+![](IMG-20251211101611800.png)
 
  A class or an interface can implements more than one interface.[Subtype_Polymorphism](Subtype_Polymorphism.md)  
 # Overriding vs. Overloading
 ## Definition
 If a subclass has a method with the exact same signature as in the superclass, we say the subclass overrides the method, which happens only in the situation of inheritance.  
 
-![](IMG-20251210185516955.png)
+![](IMG-20251211101611834.png)
 > But in the subclass extending this class, when overriding, return type could be the subclass of the return type of the superclass method.  
 > ([Covariant return types](Type_Checking_and_Casting#^hln5l8.md))
 ```java
@@ -41,7 +41,7 @@ class Child extends Parent {
 ```
 
 On the other hand, method with the same name but different signatures are overloaded.
-![](IMG-20251210185517073.png)
+![](IMG-20251211101611873.png)
 The conception of overload can be also applied in the situation without inheritance.
 
 ## `@Override`(Optional, but Recommended)
@@ -65,11 +65,11 @@ keyword is known as interface inheritance.
     - Will fail to compile otherwise.
 - Can provide variables, but they should be `public static final`.  
 	- `final` means never changing, constant value(`const` in C).
-![](IMG-20251210185517105.png)
+![](IMG-20251211101611905.png)
 
 ---
 (A variable of superclass can hold addresses of a variable of subclass and the variable can call the method of this exact subclass)
-![](IMG-20251210185517134.png)
+![](IMG-20251211101611943.png)
 This phenomenon is a key manifestation of **polymorphism** in Java. Here's the breakdown:
 
 ### Compile-time: Focus on the declared type (Parent class)
@@ -94,14 +94,14 @@ _**For better or worse, Java also allows implementation inheritance: Subclasses 
 
 That is, we can have a body for the methods in a interface!  
 Use the `default` keyword to specify a method that subclasses should inherit from an interface.
-![](IMG-20251210185517275.png)
+![](IMG-20251211101611975.png)
 And we can override the default method as well. Same as above, when we store a variable of subclass in a variable of superclass, we will still call the method of overriding method of the subclass.
 
 <font color="blue">So methods in interface can be divided into two kinds: abstract methods(without verbose keyword) and default method(with keyword default).</font>
 
 ## `Extends`
 _**If we want one class to be hyponym of another class, use it.**_
-![](IMG-20251210185517397.png)
+![](IMG-20251211101612010.png)
 Because of `extends`, `RotatingSLList` inherits all members of SLList:
 - All instance and static variables.
 - All methods.
@@ -109,7 +109,7 @@ Because of `extends`, `RotatingSLList` inherits all members of SLList:
 But members may be private and inaccessible.  
 Constructors are not inherited.
 
-![](IMG-20251210185517435.png)
+![](IMG-20251211101612051.png)
 ### [Abstract_Classes](Abstract_Classes.md)
 ### `super`
 A keyword that can call private methods or attributes of the superclass.
@@ -121,19 +121,19 @@ However, the rules of Java say that all constructors must start with a call to o
     - If you didn’t call `SLList` constructor, sentinel would be null. Very bad.
 - You can explicitly call the constructor with the keyword super (no dot).
 - If you don’t explicitly call the constructor, Java will automatically do it for you.
-![](IMG-20251210185517467.png)
+![](IMG-20251211101612082.png)
 
 If we want to use a super constructor other than the no-argument constructor, can give parameters to super. In other word, call `super(x)` explicitly.
-![](IMG-20251210185517575.png)
+![](IMG-20251211101612118.png)
 
 # Dynamic Method Selection
-![](IMG-20251210185517605.png)
+![](IMG-20251211101612154.png)
 So if the run-time type overrides the method of compile-time type, the run-time type's method will be used instead.
 
 [A typical scenario.](https://www.doubao.com/thread/cDJPv68P6rNg)
-![](IMG-20251210185517632.png)
+![](IMG-20251211101612220.png)
 
-![](IMG-20251210185517748.png)
+![](IMG-20251211101612261.png)
 Actually, if there are many layers of inheritance, Java will search for overridden method from the dynamic type until the root - the biggest superclass.  
 Just like how python find variables, methods, attributes in [frames](Environment.md).
 
@@ -152,9 +152,9 @@ Important: In both cases, we specify "is-a" relationships, not "has-a"(compositi
 - Bad: Cat implements Claw, Set implements SLList.
 
 [Encapsulation](Encapsulation.md), [Type_Checking_and_Casting](Type_Checking_and_Casting.md) are also related to this notes.
-![](IMG-20251210185517780.png)
+![](IMG-20251211101612294.png)
 
-![](IMG-20251210185517810.png)
+![](IMG-20251211101612328.png)
 
 
 ---
@@ -163,7 +163,7 @@ _**Every type in Java is a descendant of the Object class.**_
 
 Every class without using `extends` explicitly actually `extends` `Object` class implicitly.  
 But interface does not extend the Object class.
-![](IMG-20251210185518046.png)
+![](IMG-20251211101612364.png)
 - `equals`
 - `hashCode`
 - `toString`

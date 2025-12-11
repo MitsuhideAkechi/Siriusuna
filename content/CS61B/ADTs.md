@@ -5,7 +5,7 @@ _**We should know which ADT will make our life easier and which implementation w
 We should notice that there are three fundamental structures: map, set and list(queue, deque, stack, etc.).  
 And things we know as tree, hash table, array and so on is how it implement in different way or with different constraint.  
 也就是说，所谓抽象数据结构，只是规定了数据之间的关系、可以进行的操作，但是具体底层如何实现，可以在这个规则下，使用不同的组织形式，树、数列等等实现。
-![](IMG-20251210185510055.png)
+![](IMG-20251211101604712.png)
 [Data structure - Wikipedia](https://en.wikipedia.org/wiki/Data_structure)
 **Syntax:**
 ```java
@@ -21,15 +21,15 @@ That is: abstract data type equals data type.
 ## Map(Associative Array, Symbol tables and [dictionaries](Dictionary.md))(映射)
 The difference between set and map is that when you give a key, set will return boolean and map will return some other values.
 ## ArrayMap
-![](IMG-20251210185510082.png)
+![](IMG-20251211101604771.png)
 
 
 # Hierarchies
-![](IMG-20251210185510106.png)
+![](IMG-20251211101604820.png)
 More details:
-![](IMG-20251210185510132.png)
-![](IMG-20251210185510159.png)
-![](IMG-20251210185510211.png)
+![](IMG-20251211101604872.png)
+![](IMG-20251211101604919.png)
+![](IMG-20251211101604966.png)
 
 # Search
 ## Some Way Representing Set and Map
@@ -43,12 +43,12 @@ More details:
 
 ## [Heaps](Heaps.md) for PQ
 
-![](IMG-20251210185510331.png)
+![](IMG-20251211101605080.png)
 _**ADTs and its Implementation Data Structure**_
-![](IMG-20251210185510357.png)
-![](IMG-20251210185510383.png)
+![](IMG-20251211101605173.png)
+![](IMG-20251211101605283.png)
 也就是，这些抽象数据结构，是一种带有规则的特定数据组织形式，不止一种实现方式，而每种实现方式，也是一种数据组织方式，为了实现其规则，底层代码实现也不尽相同。
-![](IMG-20251210185510408.png)
+![](IMG-20251211101605413.png)
 
 # Skip List
 

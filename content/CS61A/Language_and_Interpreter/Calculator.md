@@ -15,7 +15,7 @@ class Pair:
 # Syntax
 The calculator language has primitive expressions and call expressions.  
 These two things are like these two things in Scheme.
-![](IMG-20251210185507749.png)
+![](IMG-20251211101602131.png)
 
 # Semantics
 The value of a calculator expression is defined recursively.
@@ -32,13 +32,13 @@ _**The `eval` function computes the value of an expression represented as a Sche
 
 It is a [generic function](Representation#^59svd7.md) that dispatches on the type of the expression (primitive or call).
 
-![](IMG-20251210185507774.png)
+![](IMG-20251211101602202.png)
 
 ## Applying Built-in Operator
 The `apply` function applies some operation to a (Scheme) list of argument values.  
 In calculator language, all operations are named by built-in operators: +, -, *, /
 
-![](IMG-20251210185507900.png)
+![](IMG-20251211101602246.png)
 
 ```python
 def calc_apply(operator, args):

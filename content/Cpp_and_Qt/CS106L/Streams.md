@@ -1,17 +1,17 @@
-![](IMG-20251210185535999.png)
+![](IMG-20251211101624047.png)
 
 # What is stream?
-![](IMG-20251210185536021.png)
-![](IMG-20251210185536138.png)
-![](IMG-20251210185536163.png)
-![](IMG-20251210185536186.png)
+![](IMG-20251211101624103.png)
+![](IMG-20251211101624135.png)
+![](IMG-20251211101624173.png)
+![](IMG-20251211101624202.png)
 # String Stream
-![](IMG-20251210185536314.png)
-![](IMG-20251210185536338.png)
-![](IMG-20251210185536466.png)
-![](IMG-20251210185536595.png)
-![](IMG-20251210185536623.png)
-![](IMG-20251210185536648.png)
+![](IMG-20251211101624236.png)
+![](IMG-20251211101624270.png)
+![](IMG-20251211101624310.png)
+![](IMG-20251211101624351.png)
+![](IMG-20251211101624393.png)
+![](IMG-20251211101624422.png)
 ```cpp
 #include <iostream>
 #include <sstream>
@@ -26,24 +26,24 @@ int main()
 }
 ```
 
-![](IMG-20251210185536672.png)
-![](IMG-20251210185536787.png)
+![](IMG-20251211101624469.png)
+![](IMG-20251211101624502.png)
 
 **Types matters!**
-![](IMG-20251210185536813.png)
+![](IMG-20251211101624547.png)
 The operator returns the stream itself so that we can call them in a chain.
 
-![](IMG-20251210185536840.png)
+![](IMG-20251211101624589.png)
 
 # State Bit
-![](IMG-20251210185536955.png)
-![](IMG-20251210185537085.png)
-![](IMG-20251210185537113.png)
+![](IMG-20251211101624649.png)
+![](IMG-20251211101624683.png)
+![](IMG-20251211101624727.png)
 - `iss.good()` --> bool: true
 - `iss.fail()` --> bool: false
 - `iss.eof()`
 - `iss.bad()` 
-![](IMG-20251210185537250.png)
+![](IMG-20251211101624764.png)
 
 ```cpp
 #include <iostream>
@@ -60,19 +60,19 @@ int main()
 }
 ```
 # `cout` and `cin`
-![](IMG-20251210185537279.png)
-![](IMG-20251210185537307.png)
-![](IMG-20251210185537334.png)
+![](IMG-20251211101624804.png)
+![](IMG-20251211101624849.png)
+![](IMG-20251211101624909.png)
 
 How to deal with?
-![](IMG-20251210185537455.png)
+![](IMG-20251211101624952.png)
 (The delimiter will be skipped and discarded)  
 (Though, it will not skip a leading delimiter!)
 
 ## `std::endl`
 `/n` + flush.
-![](IMG-20251210185537482.png)
-![](IMG-20251210185537510.png)
+![](IMG-20251211101625011.png)
+![](IMG-20251211101625054.png)
 ```cpp
 std::istringstream iss("   hello");
 std::string s;
@@ -98,8 +98,8 @@ std::cout << std::setprecision(3) << pi << std::endl;
 std::cout << std::fixed << std::setprecision(3) << pi << std::endl;
 // 输出：3.142（保留小数位数）
 ```
-![](IMG-20251210185537643.png)
+![](IMG-20251211101625099.png)
 
-![](IMG-20251210185537692.png)
+![](IMG-20251211101625133.png)
 
-![](IMG-20251210185537722.png)
+![](IMG-20251211101625185.png)

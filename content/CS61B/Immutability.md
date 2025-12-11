@@ -7,7 +7,7 @@ Example:
 - Immutable: Integer, String
 
 **The `final` keyword will help the compiler ensure immutability.(But not necessary to have `final` to be immutable, maybe just there is no code, no method, etc. to change this value)**
-![](IMG-20251210185516693.png)
+![](IMG-20251211101611725.png)
 
 (Month, day, year is `final` and contrived is private and no method to changes in outside nor inside)
 

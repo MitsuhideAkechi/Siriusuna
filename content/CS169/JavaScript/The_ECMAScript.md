@@ -1,27 +1,27 @@
-![](IMG-20251210185501547.png)
+![](IMG-20251211101551635.png)
 JavaScript is single-threaded.
 
-![](IMG-20251210185501565.png)
+![](IMG-20251211101551699.png)
 
 # Class, Function and Constructors
-![](IMG-20251210185501590.png)
+![](IMG-20251211101551774.png)
 
-![](IMG-20251210185501612.png)
+![](IMG-20251211101551834.png)
 
 # Abstraction and Encapsulation
-![](IMG-20251210185501639.png)
+![](IMG-20251211101551901.png)
 
-![](IMG-20251210185501662.png)
+![](IMG-20251211101551945.png)
 
 # Idioms
 _**[Higher-Order_Function](Higher-Order_Function.md)**_
 - Passing a function
 - immediate application / calling closure
 - passing function around a iterator
-![](IMG-20251210185501687.png)
-![](IMG-20251210185501708.png)
+![](IMG-20251211101551990.png)
+![](IMG-20251211101552035.png)
 
-![](IMG-20251210185501732.png)  
+![](IMG-20251211101552076.png)  
 （mermaid source）
 ```
 flowchart LR

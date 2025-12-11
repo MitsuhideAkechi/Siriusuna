@@ -18,20 +18,20 @@ try {
 
 # The Philosophy of Exceptions
 _**Allows us to keep error handling code separate from 'real' code.**_
-![](IMG-20251210185512265.png)
+![](IMG-20251211101607327.png)
 
 # Exceptions and the Call Stack
 When an exception is thrown, it descends the call stack.  
 If exceptions reach the bottom of the stack, the program will crash and Java provides a message of call stack for the user.
-![](IMG-20251210185512289.png)
+![](IMG-20251211101607361.png)
 
 # Checked Exceptions
 _**When compiling, compile may yell: "must be caught or declared to be thrown", these are exceptions disgusting by the compiler that we MUST handle them somehow.**_
-![](IMG-20251210185512312.png)
+![](IMG-20251211101607387.png)
 If any checked exception may occur, we must `catch` or `specify` these exceptions, or program will not be compiled.
 
 - `catch`: We handle the problem.
 - `specify`(`throws`): We ask others to handle the problem.
-![](IMG-20251210185512337.png)
-![](IMG-20251210185512362.png)
-![](IMG-20251210185512388.png)
+![](IMG-20251211101607448.png)
+![](IMG-20251211101607483.png)
+![](IMG-20251211101607547.png)

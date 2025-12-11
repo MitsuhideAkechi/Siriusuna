@@ -17,7 +17,7 @@
     Functions in Java return only one value!
 
 # Advantage
-![](IMG-20251210185518299.png)
+![](IMG-20251211101612627.png)
 
 
 # Other

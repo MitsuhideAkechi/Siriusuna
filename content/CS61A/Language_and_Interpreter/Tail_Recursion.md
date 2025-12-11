@@ -1,7 +1,7 @@
 _**An optimization method for [Functional_Programming](Functional_Programming.md).**_
 
 We can eliminate the frames we do not need in a recursive call so that we can finish computation in constant space.
-![](IMG-20251210185508197.png)
+![](IMG-20251211101602624.png)
 Those frame all return a same value, the value returned by the last frame.  
 So these middleman are useless after they executed a recursive call.
 
@@ -16,13 +16,13 @@ A tail call is a call expression in a tail context:
 - All non-predicate sub-expressions in a tail context `cond`
 - The last sub-expression in a tail context `and` or `or`
 - The last sub-expression in a tail context `begin`
-![](IMG-20251210185508223.png)
+![](IMG-20251211101602667.png)
 
 A call expression is not a tail call if more computation is still required in the calling procedure.  
 But linear recursive procedures can often be re-written to use tail calls.
 
-![](IMG-20251210185508247.png)
-![](IMG-20251210185508270.png)
+![](IMG-20251211101602707.png)
+![](IMG-20251211101602751.png)
 
 # Map and Reduce
 ```scheme

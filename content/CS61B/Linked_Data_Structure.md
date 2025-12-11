@@ -28,12 +28,12 @@ public class SLList {
 	}
 }
 ```
-![](IMG-20251210185518421.png)
-![](IMG-20251210185518446.png)
+![](IMG-20251211101612672.png)
+![](IMG-20251211101612711.png)
 
 ## SLList vs IntList
-![](IMG-20251210185518471.png)
-![](IMG-20251210185518707.png)
+![](IMG-20251211101612748.png)
+![](IMG-20251211101612798.png)
 
 ### Cache
 Set a variable keeping track of the size of list, we `size()` is called, return it.  
@@ -42,9 +42,9 @@ Set a variable keeping track of the size of list, we `size()` is called, return 
 ### Easy to Use(Data Abstraction Barrier)
 ### Be Able to Represent Empty List
 ### More Optimize: Sentinel Node
-![](IMG-20251210185518735.png)
-![](IMG-20251210185518762.png)
-![](IMG-20251210185518788.png)
+![](IMG-20251211101612832.png)
+![](IMG-20251211101612868.png)
+![](IMG-20251211101612913.png)
 
 No need for special cases!
 
@@ -110,7 +110,7 @@ public class SLList {
  	}
 }
 ```
-![](IMG-20251210185518906.png)
+![](IMG-20251211101612946.png)
 
 ## Invariant 
 An invariant is a condition that is guaranteed to be true during code execute (assuming there are no bugs in your code).  
@@ -125,7 +125,7 @@ Invariants make it easier to reason about code:
 - Must ensure that methods preserve invariants.
 
 # DLList(Double Link List)(with Circular)
-![](IMG-20251210185518933.png)
+![](IMG-20251211101612980.png)
 
 # Generic List
 
@@ -173,10 +173,10 @@ Like instances of classes:
 
 _**Unlike classes, arrays do not have methods.**_
 
-![](IMG-20251210185518959.png)
+![](IMG-20251211101613021.png)
 
 ## Array Copy
-![](IMG-20251210185519079.png)
+![](IMG-20251211101613058.png)
 
 ## 2D Array
 _**Rather than 2D array in C, it is more similar to pointer array in C.**_
@@ -186,16 +186,16 @@ Syntax:
 int[][] twoDimension = new int[4][];
 ```
 It creates an array whose length is 4 and each box can contain a 64 bits reference of another array of integer.
-![](IMG-20251210185519202.png)
+![](IMG-20251211101613099.png)
 
 ```java
 int[][] matrix = new int[4][4];
 ```
 It creates an array of 4 boxes and each one contains an array of 4 boxes fixed. _**Not only the array integer reference but actual integer array.**_
-![](IMG-20251210185519230.png)
-![](IMG-20251210185519363.png)
+![](IMG-20251211101613134.png)
+![](IMG-20251211101613181.png)
 Initialize:
-![](IMG-20251210185519388.png)
+![](IMG-20251211101613223.png)
 
 ## Array vs Class
 Arrays and Classes can both be used to organize a bunch of memory boxes.
@@ -206,7 +206,7 @@ Arrays and Classes can both be used to organize a bunch of memory boxes.
 - Both have a fixed number of boxes.
 - Array indices can be computed at runtime.
 - Class member variable names can't be computed and used at runtime.(The only way to access a member of a class is with hard-code dot notation)
-![](IMG-20251210185519420.png)
+![](IMG-20251211101613260.png)
 
 ## "Resizing" Arrays
 ```java
@@ -216,7 +216,7 @@ a[size] = ...;
 item = a;
 size++;
 ```
-![](IMG-20251210185519454.png)
+![](IMG-20251211101613296.png)
 
 ### Trade-off Between Time and Memory Efficiency
 #### Speed Up
@@ -255,7 +255,7 @@ public class AList<Item> {
 ```
 
 **Another fix:**
-![](IMG-20251210185519571.png)
+![](IMG-20251211101613362.png)
 
 ---
 > **基本类型（如 `int`、`boolean`）**

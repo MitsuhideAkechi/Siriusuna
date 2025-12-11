@@ -8,7 +8,7 @@
 # Module
 _**A set of methods that work together as a whole to perform some task or set of related tasks.**_  
 _**A module is said to be encapsulated if its implementation is completely hidden, and it can be accessed only through a documented interface.**_
-![](IMG-20251210185512239.png)
+![](IMG-20251211101607288.png)
 
 Java is a great language for enforcing abstraction barriers with syntax.
 

@@ -1,16 +1,16 @@
-![](IMG-20251210185504247.png)
-![](IMG-20251210185504285.png)
+![](IMG-20251211101557077.png)
+![](IMG-20251211101557136.png)
 ## An Example
-![](IMG-20251210185504315.png)
+![](IMG-20251211101557229.png)
 [Implementation of `method_missing` in Ruby](https://www.doubao.com/chat/collection/21359509812961026?type=Thread)
 # Open Classes in Ruby (Reopen a Class)
-![](IMG-20251210185504350.png)
+![](IMG-20251211101557283.png)
 
 # [Iteration](Iteration.md)
-![](IMG-20251210185504380.png)
+![](IMG-20251211101557350.png)
 _**Iterator allows objects to manage their own traversal.**_
 # Some Thought of Functional Programming
-![](IMG-20251210185504439.png)
+![](IMG-20251211101557403.png)
 When we write Ruby, `a.b.c.d`, we actually call method b to object a and return a value perceived as expression and evaluated to another object to call method c... so forth.
 Just like what we do at [Scheme](Programs_as_Data.md).
 
@@ -21,24 +21,24 @@ _**Ruby emphasizes "What methods do you respond to" over "What class do you belo
 
 ## Module
 A bit like interface in Java, but more handy and useful.
-![](IMG-20251210185504467.png)
+![](IMG-20251211101557456.png)
 Ruby provides a lot of useful functionality to already do the work you need to do. Your job is to do the least amount of new work possible to get the functionality you need. 
 
 When you have behaviors you want to reuse, you can put them into a module. That module can be mixed into many classes as long as you make clear what does the module expect from the classes that you're mixing it into.
 
 If you want to reuse implementation, then you'd use the traditional thing. Classes have ancestors, they have sub-classes.
 
-![](IMG-20251210185504501.png)
+![](IMG-20251211101557515.png)
 # Closure and Metaprogramming
 ## Block (Lambda and FP)
-![](IMG-20251210185504534.png)
-![](IMG-20251210185504578.png)
+![](IMG-20251211101557572.png)
+![](IMG-20251211101557644.png)
 ### [Yield](Iteration.md), Block and Closure(Set of All the Variable bindings Can be Seen at Given Time([Environment](Environment.md)))
 
 `yield` means transfer the control back to the thing that called me because it has a block waiting for me.
-![](IMG-20251210185504635.png)
-![](IMG-20251210185504668.png)
-![](IMG-20251210185504700.png)
+![](IMG-20251211101557710.png)
+![](IMG-20251211101557809.png)
+![](IMG-20251211101557864.png)
 (btw, iterator is only one of usages of `yield`)
 # Summary
-![](IMG-20251210185504730.png)
+![](IMG-20251211101557923.png)

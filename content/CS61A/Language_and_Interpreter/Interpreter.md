@@ -1,5 +1,5 @@
 # The Structure of an Interpreter
-![](IMG-20251210185507929.png)
+![](IMG-20251211101602304.png)
 
 # [Special Forms](Fundamentals.md)
 
@@ -35,7 +35,7 @@ _**The quote special form evaluates to the quoted expression, which is <font col
 ## The `lambda` Special Form
 _**Lambda expressions evaluate to user-defined procedures.**_
 
-![](IMG-20251210185507959.png)
+![](IMG-20251211101602352.png)
 
 ### [Frame and Environment](Environment.md)
 _**A frame represents an environment by having a parent frame.**_
@@ -62,4 +62,4 @@ To apply a user-defined procedure, create a new frame in which formal parameters
 
 Evaluate the body of the procedure in the environment that starts with this new frame.
 
-![](IMG-20251210185507984.png)
+![](IMG-20251211101602399.png)

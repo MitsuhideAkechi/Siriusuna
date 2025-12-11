@@ -9,7 +9,7 @@ The built-in Scheme [list data structure](Fundamentals#^2gccw8.md) can represent
 _**All the Scheme codes are just lists. We can write a program that writes a program.**_
 
 A complex combination is a nested Pair like this:(A and B are another combination like `(+ 3 2)`, etc.)
-![](IMG-20251210185509912.jpg)
+![](IMG-20251211101604566.jpg)
 
 
 ```scheme
@@ -26,7 +26,7 @@ A complex combination is a nested Pair like this:(A and B are another combinatio
 There are two ways to quote an expression.
 - Quote
 - Quasiquote: Parts of a quasiquoted expression can be unquoted with comma
-![](IMG-20251210185510029.png)
+![](IMG-20251211101604623.png)
 
 Example:
 ```scheme

@@ -23,7 +23,7 @@ Can think of `new` as returning the address of the newly created object
 
 > So the `new`- allocating memory and returning the address, similar to the `malloc` in C.
 
-![](IMG-20251210185522618.png)
+![](IMG-20251211101615255.png)
 
 ## Reference Type Variable Declarations
 When we declare a variable of any reference type (Walrus, Dog, Planet):
@@ -31,8 +31,8 @@ When we declare a variable of any reference type (Walrus, Dog, Planet):
 - These bits can be either set to:  
     - Null (all zeros).
     - The 64 bit “address” of a specific instance of that class (returned by new).
-![](IMG-20251210185522725.png)
-![](IMG-20251210185522748.png)
+![](IMG-20251211101615291.png)
+![](IMG-20251211101615326.png)
 
 # The Golden Rule of Equals(GRoE) (and Parameter Passing)
 `y = x` **copies** all the bits (pass by value) from x into y.
@@ -40,7 +40,7 @@ When we declare a variable of any reference type (Walrus, Dog, Planet):
 > So does reference types, in terms of our visual metaphor, we "copy" the arrow by making the arrow in the b box point at the same instance as a.
 
 # Summary
-![](IMG-20251210185522869.png)
+![](IMG-20251211101615361.png)
 (Variables that store arrays are reference variables just like any other.)
 
 # [Casting](Type_Checking_and_Casting.md)

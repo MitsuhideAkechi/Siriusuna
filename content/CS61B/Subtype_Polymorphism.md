@@ -1,12 +1,12 @@
 # Polymorphism
 _**Providing a single interface to entities of different types.**_
 
-![](IMG-20251210185521113.png)
+![](IMG-20251211101614314.png)
 
 # Poly-Implements and Composition
 How to compare a list of dog and find its biggest one? How about something else?
-![](IMG-20251210185521141.png)
-![](IMG-20251210185521280.png)
+![](IMG-20251211101614346.png)
+![](IMG-20251211101614376.png)
 
 # Built-in Comparable Interface
 ```java
@@ -14,21 +14,21 @@ public interface Comparable<T> {
 	public int compareTo(T obj);
 }
 ```
-![](IMG-20251210185521305.png)
+![](IMG-20251211101614429.png)
 So we can use the existed libraries.
 
 In fact, `max()` is ready for us in library called `Collection`.
-![](IMG-20251210185521342.png)
+![](IMG-20251211101614458.png)
 (And avoid ugly castings.)
 
 # Comparator(HoFs)
 _**From time to time, we maybe want to compare objects in different way.**_
-![](IMG-20251210185521363.png)
+![](IMG-20251211101614504.png)
 
-![](IMG-20251210185521481.png)
+![](IMG-20251211101614529.png)
 
 The final codes:
-![](IMG-20251210185521603.png)
+![](IMG-20251211101614568.png)
 Or, more like Java code:
 ```java
 import java.util.Comparator;
@@ -53,4 +53,4 @@ Comparator<Dog> nc = Dog.getNameComparator();
 ```
 
 # Callback
-![](IMG-20251210185521630.png)
+![](IMG-20251211101614608.png)

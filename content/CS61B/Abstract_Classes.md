@@ -1,10 +1,10 @@
 _**A kind of things in middle between classes and interfaces.**_  
 A abstract class does not have to implement interface methods. There is even no need to list those not having been implemented.
 
-![](IMG-20251210185510460.png)
+![](IMG-20251211101605620.png)
 Btw, an abstract class in Java can have private methods(which is used to do works for its public methods).
 
-![](IMG-20251210185510482.png)
+![](IMG-20251211101605657.png)
 (Answer is C. Two, `shred` and `connectToWifi`)
 
 **Hierarchy:**  
@@ -13,4 +13,4 @@ Btw, an abstract class in Java can have private methods(which is used to do wor
 3. concrete class
 
 # Example
-![](IMG-20251210185510509.png)
+![](IMG-20251211101605697.png)

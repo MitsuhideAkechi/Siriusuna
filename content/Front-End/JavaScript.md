@@ -3,7 +3,7 @@
 body或者head中的script标签
 # 外联式
 `script:src`
-![](IMG-20251210185559727.png)
+![](IMG-20251211101640515.png)
 
 # 变量
 - `var`：函数作用域
