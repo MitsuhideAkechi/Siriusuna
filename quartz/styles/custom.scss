@@ -1,3 +1,59 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+@font-face {
+  font-family: "QiushuiShotai";
+  src: url("/static/fonts/QiushuiShotai.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: 'LXGWWenKai';
+    src: url('/static/fonts/LXGWWenKai-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LWGWWenKai';
+    src: url('/static/fonts/LXGWWenKai-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LXGWWenKai';
+    src: url('/static/fonts/LXGWWenKai-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LWGWWenKaiMono';
+    src: url('/static/fonts/LXGWWenKai-Mono-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LWGWWenKaiMono';
+    src: url('/static/fonts/LXGWWenKai-Mono-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LWGWWenKaiMono';
+    src: url('/static/fonts/LXGWWenKai-Mono-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
