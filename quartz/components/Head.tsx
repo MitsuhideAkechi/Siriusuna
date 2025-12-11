@@ -93,6 +93,12 @@ export default (() => {
         
         <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" async></script>
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.css" integrity="sha512-A2sVEqmNCGCac7ji4czWLqCVSn28L0U5lSobS173H+gk+QTV6rH0EH0QEnYk5mz3KPRDmEr+GKM1hfdfLrsFpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/firacode/6.2.0/fira_code.css" integrity="sha512-LaxQmGd9k/pW51CsEy2nLIlbUXCgsyvUEVT5fSguN2b2OBwHjMi2aiUdEEXSMg8Jvy+bCB01as61aNrHnL2DYQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap" rel="stylesheet"></link>
+
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
         {js
           .filter((resource) => resource.loadTime === "beforeDOMReady")

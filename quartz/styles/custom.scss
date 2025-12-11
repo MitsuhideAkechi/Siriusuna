@@ -9,51 +9,44 @@
   font-display: swap;
 }
 
-@font-face {
-    font-family: 'LXGWWenKai';
-    src: url('/static/fonts/LXGWWenKai-Light.woff2') format('woff2');
-    font-weight: 300;
+@font-face {  // Not QiuShui but add Bold by other font
+    font-family: "QiushuiShotai";
+    src: url("/static/fonts/LXGWWenKaiMonoTC-Bold.woff2") format("woff2");
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'LXGWWenKai';
-    src: url('/static/fonts/LXGWWenKai-Regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
+:root {
+    --custom-highlight: #8000ff;
 }
 
-@font-face {
-    font-family: 'LXGWWenKai';
-    src: url('/static/fonts/LXGWWenKai-Medium.woff2') format('woff2');
+:not(pre)>code {
+    background-color: var(--lightgray);
+    border: 1px solid var(--gray);
+    color: var(--custom-highlight);
+    border-radius: var(--border-radius);
+    padding: 0 .3rem;
+    margin: 0 0.2em;
     font-weight: 500;
-    font-style: normal;
-    font-display: swap;
 }
 
-@font-face {
-    font-family: 'LXGWWenKaiMono';
-    src: url('/static/fonts/LXGWWenKai-Mono-Light.woff2') format('woff2');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+.content-meta {
+    font-family: 'Monsieur La Doulaise', cursive;
 }
 
-@font-face {
-    font-family: 'LXGWWenKaiMono';
-    src: url('/static/fonts/LXGWWenKai-Mono-Regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
+body {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
-@font-face {
-    font-family: 'LXGWWenKaiMono';
-    src: url('/static/fonts/LXGWWenKai-Mono-Medium.woff2') format('woff2');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
+    background-image:
+        linear-gradient(
+            color-mix(in srgb, var(--light), transparent 40%),
+            color-mix(in srgb, var(--light), transparent 40%)
+        ),
+        url("/static/images/ToriNoUta.jpg");
 
+    background-color: var(--light);
+}

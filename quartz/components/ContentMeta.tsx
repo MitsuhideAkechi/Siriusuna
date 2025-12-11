@@ -30,13 +30,21 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
       const segments: (string | JSX.Element)[] = []
 
       if (fileData.dates) {
-        segments.push(<Date date={getDate(cfg, fileData)!} locale={cfg.locale} />)
-      }
+            segments.push(
+                <span>✏️ <Date date={fileData.dates.created} locale='en-US' /></span>
+            )
+            segments.push(
+                <span>🔧 <Date date={fileData.dates.modified} locale='en-US' /></span>
+            )
+            segments.push(
+                <span>📄 <Date date={fileData.dates.published} locale='en-US' /></span>
+            )
+        }
 
       // Display reading time if enabled
       if (options.showReadingTime) {
         const { minutes, words: _words } = readingTime(text)
-        const displayedTime = i18n(cfg.locale).components.contentMeta.readingTime({
+        const displayedTime = i18n('en-US').components.contentMeta.readingTime({
           minutes: Math.ceil(minutes),
         })
         segments.push(<span>{displayedTime}</span>)

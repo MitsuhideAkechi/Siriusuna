@@ -23,9 +23,9 @@ const config: QuartzConfig = {
       fontOrigin: "local",
       cdnCaching: false,
       typography: {
-        header: "LXGWWenKai",
+        header: "LXGW WenKai Screen",
         body: "QiushuiShotai",
-        code: "LWGWWenKaiMono",
+        code: "Fira Code",
       },
       colors: {
         lightMode: {
@@ -89,7 +89,7 @@ const config: QuartzConfig = {
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
+      //Plugin.CustomOgImages(),
     ],
   },
 }

@@ -34,7 +34,7 @@ export const defaultContentPageLayout: PageLayout = {
           Component: Component.Search(),
           grow: true,
         },
-        { Component: Component.Darkmode() },
+        { Component: Component.Darkmode() }, //Dark mode is not compatible with custom background
         { Component: Component.ReaderMode() },
       ],
     }),
