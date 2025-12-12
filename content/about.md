@@ -105,3 +105,37 @@ summary: ここはどこ？
 这便是构成我的血肉了.
 所以...  
 **`想像する，創造する！`**
+
+
+<style>
+.lyrics {
+  font-family: "YujiMai", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.profile-img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.author-credit,
+.author-credit a {
+  font-size: 0.8rem;
+  color: var(--secondary);
+  margin-top: 4px;
+}
+
+.profile-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+</style>
