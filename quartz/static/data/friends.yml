@@ -1,0 +1,7 @@
+- name: "Example Friend"
+  url: "https://example.com"
+  cover: "https://placehold.co/600x400"
+  desc: "这是一个很棒的博客，分享技术与生活。"
+  tags:
+    - 技术
+    - 生活
