@@ -1,3 +1,20 @@
+/**
+ * Code imported from Quartz upstream Pull Request #2074
+ *
+ * The following commits were cherry-picked from:
+ *   https://github.com/jackyzha0/quartz/pull/2074/commits
+ * by the original author @jxlenco
+ *
+ * Commit references:
+ *   - 298be6e12db323a048ca8ef000b5c56812c2b381 (from PR #2074) — original quartz contribution by @jxlenco
+ *   - b9b49623a3b750c6d072152d8cb1fa2a1371798c (from PR #2074) — original quartz contribution by @jxlenco
+ *   - 9ffd33f76c8486d13681088aaa60b175443e2a0f (from PR #2074) — original quartz contribution by @jxlenco
+ *
+ * Original project: jackyzha0/quartz (MIT License) — https://github.com/jackyzha0/quartz
+ *
+ * Local modifications:
+ *   - None
+ */
 import { QuartzTransformerPlugin } from "../types"
 
 // ViewImage.js灯箱插件
