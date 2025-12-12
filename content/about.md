@@ -102,18 +102,12 @@ summary: ここはどこ？
 </blockquote>
 
 音乐, 文学, 代码.  
-这便是构成我的血肉了.
+这便是构成我的血肉了.  
 所以...  
 **`想像する，創造する！`**
 
 
 <style>
-.lyrics {
-  font-family: "YujiMai", sans-serif;
-  font-size: 1.2rem;
-  line-height: 1.8;
-}
-
 .about-container {
   display: flex;
   align-items: flex-start;
