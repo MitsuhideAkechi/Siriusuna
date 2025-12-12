@@ -5,11 +5,21 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.Comments({
+      provider: "giscus",
+      options: {
+        repo: "Siriusuna/Siriusuna",
+        repoId: "R_kgDOQmO3Qw",
+        category: "Announcements",
+        categoryId: "DIC_kwDOQmO3Q84Czr7z",
+      },
+    }),
+  ],
   footer: Component.Footer({
     links: {
       "GitHub@MitsuhideAkechi": "https://github.com/MitsuhideAkechi",
-      "X@Salieri1122": "https://x.com/Salieri1122"
+      "X@Salieri1122": "https://x.com/Salieri1122",
     },
   }),
 }
@@ -34,7 +44,7 @@ export const defaultContentPageLayout: PageLayout = {
           Component: Component.Search(),
           grow: true,
         },
-        { Component: Component.Darkmode() }, //Dark mode is not compatible with custom background
+        { Component: Component.Darkmode() },
         { Component: Component.ReaderMode() },
       ],
     }),

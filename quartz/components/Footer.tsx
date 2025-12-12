@@ -11,8 +11,23 @@ export default ((opts?: Options) => {
   const Footer: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
     const year = new Date().getFullYear()
     const links = opts?.links ?? []
-    return (
+      return (
       <footer class={`${displayClass ?? ""}`}>
+        <script src="https://giscus.app/client.js"
+                data-repo="Siriusuna/Siriusuna"
+                data-repo-id="R_kgDOQmO3Qw"
+                data-category="Announcements"
+                data-category-id="DIC_kwDOQmO3Q84Czr7z"
+                data-mapping="pathname"
+                data-strict="1"
+                data-reactions-enabled="0"
+                data-emit-metadata="0"
+                data-input-position="top"
+                data-theme="preferred_color_scheme"
+                data-lang="zh-CN"
+                crossorigin="anonymous"
+                async>
+        </script>
         <p>
           {i18n(cfg.locale).components.footer.createdWith}{" "}
           <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
