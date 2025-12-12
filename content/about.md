@@ -35,23 +35,37 @@ summary: ここはどこ？
 
 如你所见, 我是一名 CS 专业的学生, 我很难自我评价我是怎样的人, 只能简单描述下自己, 并请你来想象我是怎样的人.
 
+<div style="text-align: center;">
 ・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
+</div>
 
 ## 关于名字
 
 `Siriusuna`, 我很喜欢这个名字, 是「シリウスの砂」的意义. 天狼星的一粒沙子, 或许是围绕着这颗巨大蓝色恒星, 被其引力束缚着而永远不离开的, 正在且将会飘荡在宇宙的, 一颗微小的小行星吧.
 
+<div style="text-align: center;">
 ・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
+</div>
 
 ## 关于爱好
 
+我的爱好主要是音乐, 文学作品, 和计算机.
+
+计算机自不必多说, 整个站里现在是, 未来估计依旧是, 计算机相关的学习内容占主要部分. 自然也没什么好额外介绍的, 或许有一天我有所成就之后, 会单列一个栏目介绍我 CS 相关的专业背景吧.
+
+<div style="text-align: center;">
 ・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
+</div>
 
 ### 关于音乐
 
 我喜欢 J-Pop, J-Rock 一类的, 如你所知的ヰ世界情緒是其中之一, 除此之外还有很多唱见/歌手/乐队/企划, 例如[鹿乃](https://x.com/kano_2525), [さユり](https://x.com/taltalasuka), [月詠み](https://x.com/Tsukuyomi_JP), [Bang Dream](https://x.com/bang_dream_gbp) 等等等等. 我还很喜欢 [Vocaloid](https://www.vocaloid.com/) , 喜欢的作品, P 主等也是数不胜数, 最喜欢的是[傘村トータ](https://x.com/machiomiii), 温柔的曲调, 一点点淡淡的哀思, 让人感到强烈的情感. 本站命名由来的 [「シリウスの心臓」](https://www.youtube.com/watch?v=UKZt1vq8bKI) 便是由傘村老师作曲, 情绪小姐献唱的.
 
+此外, 关于音乐, 我也喜欢打音游, 主要是 [pjsk](https://pjsekai.sega.jp/), [Bang Dream](https://bang-dream.com/), [舞萌 DX](https://maimai.sega.com/), 因为里面有我喜欢的音乐~
+
+<div style="text-align: center;">
 ・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
+</div>
 
 ### 关于文学
 
@@ -67,13 +81,17 @@ summary: ここはどこ？
 
 总而言之, 可以说得太多啦, 想到哪里写到哪里了. 也无继续报菜名的必要了.
 
+<div style="text-align: center;">
 ・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
+</div>
 
 ### 关于运动
 
 体育苦手. 也不太喜欢.
 
+<div style="text-align: center;">
 ・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
+</div>
 
 ## 关于梦想
 
@@ -81,7 +99,9 @@ summary: ここはどこ？
 
 为此我正在努力学习, 这是属于我的金阁, 由梦想产生, 进一步反而催化着我的梦想.
 
+<div style="text-align: center;">
 ・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
+</div>
 
 # 结语
 

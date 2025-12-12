@@ -35,7 +35,9 @@ summary: Siriusuna 的友站
 
 </div>
 
+<div style="text-align: center;">
 ・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
+</div>
 
 🎐 如果你愿意把我添加到你的友链, 我也会很高兴~
 

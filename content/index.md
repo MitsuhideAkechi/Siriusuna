@@ -9,11 +9,15 @@ tags:
 summary: 一个小小的数字花园(Digital Garden), 在这里分享与记录
 ---
 
+<div style="text-align: center;">
 ・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
+</div>
 
 # 「よくそう、シリウスの砂、小さな惑星」
 
+<div style="text-align: center;">
 ・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
+</div>
 
 # 「ここはどこ」
 
@@ -32,22 +36,42 @@ summary: 一个小小的数字花园(Digital Garden), 在这里分享与记录
 
 2025-12-13
 
+<div style="text-align: center;">
 ・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
+</div>
 
 # 「シリウスの心臓」
 
 ***本站的命名由来.***
 
+<figure style="
+    text-align: center; 
+    max-width: 600px; 
+    margin: 0 auto; /* 确保整个 figure 居中 */
+">
+    <a href="https://www.youtube.com/watch?v=UKZt1vq8bKI"  title="シリウスの心臓">
+        <img 
+            src="/static/images/Isekaijoutyo-siriusunosinzou.jpg" 
+            alt="点击观看『シリウスの心臓』MV" 
+            style="
+                width: 50%; 
+                border-radius: 8px; 
+                box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+                margin-bottom: 0;
+            " 
+        />
+    </a>
+    <figcaption style="margin-top: 4px;
+                       font-size: 0.9rem;
+                       color: #666;
+    ">
+        Rendered By: <a href="https://kamitsubaki.jp/artist/isekaijoucho/">ヰ世界情緒</a>
+    </figcaption>
+</figure>
 
-<div style="text-align: center; max-width: 600px; margin: 0 auto;">
-  <a href="https://www.youtube.com/watch?v=UKZt1vq8bKI"  title="シリウスの心臓">
-    <img src="/static/images/Isekaijoutyo-siriusunosinzou.jpg" alt="点击观看『シリウスの心臓』MV" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
-  </a>
-</div>
-
-Rendered By: [ヰ世界情緒](https://kamitsubaki.jp/artist/isekaijoucho/)
-
+<div style="text-align: center;">
 ・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
+</div>
 
 # 「まだ、道の途中なんだ」
 
