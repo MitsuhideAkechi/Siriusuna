@@ -25,7 +25,7 @@ const config: QuartzConfig = {
       typography: {
         header: "LXGW WenKai Screen",
         body: "QiushuiShotai",
-        code: "Fira Code",
+        code: "Maple Mono NF CN",
       },
       colors: {
         lightMode: {
@@ -89,7 +89,7 @@ const config: QuartzConfig = {
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
-      //Plugin.CustomOgImages(),
+      // Plugin.CustomOgImages(),
     ],
   },
 }

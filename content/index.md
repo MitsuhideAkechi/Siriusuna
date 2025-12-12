@@ -1,6 +1,8 @@
 ---
 title: 欢迎来到 Salieri の「シリウスナ」
+created: 2025-12-10
 published: 2025-12-10
+modified: 2025-12-11
 tags: ["主页", "介绍"]
 summary: "一个小小的数字花园(Digital Garden), 在这里分享与记录"
 ---
