@@ -18,6 +18,14 @@
   font-display: swap;
 }
 
+@font-face {
+    font-family: "YujiMai";
+    src: url("/static/fonts/YujiMai-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
 :root {
   --custom-highlight: #3082e0;
   --border-radius: 4px;
@@ -57,9 +65,16 @@ body {
   background-color: var(--light);
 }
 
-.page article {
+.page article,
+.page-listing {
   background-color: color-mix(in srgb, var(--lightgray), transparent 30%);
-  border-radius: 5px; 
-  padding: 1.5rem; 
-  box-sizing: border-box; 
+  border-radius: 5px;
+  padding: 1.5rem;
+  box-sizing: border-box;
+}
+
+.lyrics blockquote {
+  font-family: "YujiMai", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
 }
