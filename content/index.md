@@ -9,10 +9,6 @@ tags:
 summary: 一个小小的数字花园(Digital Garden), 在这里分享与记录
 ---
 
-<div style="text-align: center;">
-・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
-</div>
-
 # 「よくそう、シリウスの砂、小さな惑星」
 
 <div style="text-align: center;">
@@ -73,10 +69,14 @@ summary: 一个小小的数字花园(Digital Garden), 在这里分享与记录
 ・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
 </div>
 
-# 「まだ、道の途中なんだ」
-
 # Acknowledgement
 
 - [Obsidian](https://obsidian.md/), 作为我记笔记的工具, 这些笔记成为了这个网站产生的动机.
 - [Quartz](https://quartz.jzhao.xyz/), 作为本站的框架, 为我最大限度保留笔记完整内容和形式提供巨大助力, 没有这个框架, 本站可能不会存在, 或者至少失去我所爱的这种数字花园的形式, 对我来说是很大的损失.
 - [virgiling | 思想犯](https://virgiling.wiki/), 一位前辈的优秀的博客网站, 为本站搭建提供了很多指导和帮助, 同时也让我觉得 Quartz 有不输给主流博客框架乃至更高的可玩性, 从而下定决心使用这个框架.
+
+<div style="text-align: center;">
+・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー
+</div>
+
+# 「まだ、道の途中なんだ」
