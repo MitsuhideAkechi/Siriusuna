@@ -39,6 +39,22 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
+    Component.DesktopOnly(
+      Component.RecentNotes({
+        limit: 2,
+        // showTags: false,
+        filter(f) {
+          const tags = f.frontmatter?.tags ?? []
+          const excludedTags = new Set(["主页"])
+          for (const tag of tags) {
+            if (excludedTags.has(tag.toLowerCase())) {
+              return false
+            }
+          }
+          return true
+        },
+      }),
+    ),
     Component.Flex({
       components: [
         {

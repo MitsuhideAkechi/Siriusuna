@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "zh-CN",
     baseUrl: "siriusuna.top",
-    ignorePatterns: ["private", "templates", ".obsidian", ".trash"],
+    ignorePatterns: ["private", "templates", ".obsidian", ".trash", "drafts"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "local",
