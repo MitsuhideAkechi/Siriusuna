@@ -20,6 +20,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       "GitHub@Siriusuna": "https://github.com/Siriusuna",
       "X@Salieri1122": "https://x.com/Salieri1122",
+      "Mail@Siriusuna": "mailto:Siriusuna@outlook.com",
     },
   }),
 }

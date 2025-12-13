@@ -32,7 +32,13 @@ summary: Siriusuna 的友站
     <div class="friend-desc">也就是我自己啦. 人最好的朋友是自己(?)</div>
   </div>
 </a>
-
+<a href="https://samuflore.top" class="friend-card">
+  <img src="https://samuflore.top/images/avatar.jpg" class="friend-avatar" />
+  <div>
+    <div class="friend-name">SamuFlore's Dimension</div>
+    <div class="friend-desc">德才兼備、知行合一</div>
+  </div>
+</a>
 </div>
 
 <div style="text-align: center;">
@@ -45,7 +51,7 @@ summary: Siriusuna 的友站
 
 ```md
 sitename: シリウスナ
-url: siriusuna.top
+url: https://siriusuna.top
 info: 光続けば、いつかは終わる定めなのだけれど...
 avatar: https://siriusuna.top/static/avatars/Siriusuna.png
 ```
